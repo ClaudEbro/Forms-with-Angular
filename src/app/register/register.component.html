@@ -3,7 +3,7 @@
         Register
     </div>
     <div class="card-body">
-        <form novalidate (ngSubmit)="saveData()" #registerForm="ngForm">
+        <form novalidate (ngSubmit)="saveData(registerForm)" #registerForm="ngForm">
             <div class="form-row">
                 <div class="col-md-6 mb-3">
                     <label>Last Name</label>
